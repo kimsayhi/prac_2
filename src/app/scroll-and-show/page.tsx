@@ -18,8 +18,8 @@ export default function ScrollAndShowPage() {
         <h1 className=" flex flex-col text-[8vw] pl-[8vw] font-bold text-blue-800">
           <span className="overflow-hidden">
             <motion.span
-              initial={{ bottom: "-150px" }}
-              animate={{ bottom: ballSize > 70 ? "0" : "-150px" }}
+              initial={{ bottom: "-10vw" }}
+              animate={{ bottom: ballSize > 70 ? "0" : "-10vw" }}
               transition={{ type: "spring" }}
               className="relative"
             >
@@ -28,8 +28,8 @@ export default function ScrollAndShowPage() {
           </span>
           <span className="overflow-hidden">
             <motion.span
-              initial={{ bottom: "-150px" }}
-              animate={{ bottom: ballSize > 70 ? "0" : "-150px" }}
+              initial={{ bottom: "-10vw" }}
+              animate={{ bottom: ballSize > 70 ? "0" : "-10vw" }}
               transition={{ type: "spring" }}
               className="relative overflow-hidden"
             >
